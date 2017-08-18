@@ -2,11 +2,11 @@ Uuid: 9b5c532966ca4d5eb13c09c72ba7aac2
 ExtensionType: 1
 Name: match-replace-session-action
 RepoName: match-replace-session-action
-ScreenVersion: 1.0
+ScreenVersion: 1.0.1
 SerialVersion: 0
 MinPlatformVersion: 0
 ProOnly: False
 Author: Michał Dardas
 ShortDescription: Provides a match and replace function as a Session Handling Rule.
-EntryPoint: build/libs/match-replace-session-action-all.jar
+EntryPoint: target/BurpSessionHandlingMatchReplace-1.0.1.jar
 BuildCommand: mvn package -DskipTests=true -Dmaven.javadoc.skip=true -B
