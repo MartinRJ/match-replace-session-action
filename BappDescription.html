@@ -1,3 +1,6 @@
-This extension provides match and replace function as Session Handling Rule.
+This extension provides match and replace functionality as a Session Handling Rule.
 
-The main purpose was to easily replace CSRF tokens in headers and body parameters performing Compare Site Maps.
+The main purpose is to easily replace CSRF tokens in headers and body parameters performing Compare Site Maps.
+
+To use the extension, first create a Session Handling Rule with a scope that covers the URLs you need. Add a Rule Action to Invoke a Burp Extension, and specify Match and Replace. You can then configure match and replace rules that will apply to the URLs in scope.
+
